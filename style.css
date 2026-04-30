@@ -432,6 +432,19 @@ img { display: block; max-width: 100%; height: auto; }
     overflow: hidden;
 }
 
+.figure-image--photo,
+.hero-image--photo {
+    background: #111;
+}
+
+.figure-image--photo img,
+.hero-image--photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .image-placeholder {
     padding: 6px 12px;
     background: rgba(0,0,0,0.55);
